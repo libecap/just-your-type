@@ -23,7 +23,7 @@ body {
   z-index: -2;
 }
 
-#circle {
+.circle {
   margin: auto;
 	width: 100px;
 	height: 100px;
@@ -31,19 +31,28 @@ body {
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
-  position :relative;
-  -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
-  animation: mymove 5s infinite;
-  z-index: 2;
-  top: 12%;
+  position: relative;
+  -webkit-animation: circle 5s infinite; /* Safari 4.0 - 8.0 */
+  animation: circle 5s infinite;
+  animation-direction: alternate;
+  animation-delay: 2s;
+  z-index: -2;
+  top: -100px;
 }
 
 
-@keyframes mymove {
-    from {left: -10%;}
-    to {left: 10%;}
+@keyframes circle {
+  0% {transform: rotate(0deg);top:0px;}
+  100% {transform: rotate(-360deg);top:1000px;}
 }
 
+.first-line {
+  display: block;
+}
+
+.inline {
+  display: inline-block;
+}
 .alfa {
   font-family: 'Alfa Slab One', cursive;
   color: #fff;
