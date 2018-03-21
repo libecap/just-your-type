@@ -1,24 +1,4 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
-html {
-  box-sizing: border-box;
-
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
 body {
-  margin: 0;
   background-color: rgba(262,54,12, .75);
   z-index: -2;
 }
@@ -27,7 +7,7 @@ body {
   margin: auto;
 	width: 100px;
 	height: 100px;
-	background: #6F6F6F;
+	background: #6f6f6f;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
@@ -53,6 +33,6 @@ body {
 }
 
 .mont {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   vertical-align: middle;
 }
