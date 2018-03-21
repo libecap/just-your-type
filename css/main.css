@@ -21,15 +21,21 @@ body {
 }
 
 @keyframes circle {
+
   0% {
-    transform: rotate(0deg); top: 0px; }
+    transform: rotate(0deg);
+    top: 0px;
+  }
+
   100% {
-    transform: rotate(-360deg); top: 1000px; }
+    transform: rotate(-360deg);
+    top: 1000px;
+  }
 
 }
 
 .alfa {
-  font-family: 'Alfa Slab One', cursive;
+  font-family: "Alfa Slab One", cursive;
   color: #fff;
   vertical-align: bottom;
   z-index: -3;
