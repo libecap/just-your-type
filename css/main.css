@@ -28,7 +28,7 @@ body {
   }
 
   100% {
-    transform: rotate(-360deg);
+    transform: rotate(360deg);
     top: 1000px;
   }
 
@@ -44,4 +44,30 @@ body {
 .mont {
   font-family: Montserrat, sans-serif;
   vertical-align: middle;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .alfa {
+    font-size: 6em;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .alfa {
+    font-size: 6em;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  .alfa {
+    font-size: 8em;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
 }
