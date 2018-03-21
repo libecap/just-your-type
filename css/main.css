@@ -1,16 +1,16 @@
 body {
-  background-color: rgba(262,54,12, .75);
+  background-color: rgba(262, 54, 12, .75);
   z-index: -2;
 }
 
 .circle {
   margin: auto;
-	width: 100px;
-	height: 100px;
-	background: #6f6f6f;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  background: #6f6f6f;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
   position: relative;
   -webkit-animation: circle 5s infinite; /* Safari 4.0 - 8.0 */
   animation: circle 5s infinite;
@@ -21,8 +21,11 @@ body {
 }
 
 @keyframes circle {
-  0% {transform: rotate(0deg);top:0px;}
-  100% {transform: rotate(-360deg);top:1000px;}
+  0% {
+    transform: rotate(0deg); top: 0px; }
+  100% {
+    transform: rotate(-360deg); top: 1000px; }
+
 }
 
 .alfa {
@@ -33,6 +36,6 @@ body {
 }
 
 .mont {
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   vertical-align: middle;
 }
