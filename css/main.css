@@ -3,6 +3,8 @@ body {
   z-index: -2;
 }
 
+/* Rolling stone class for the html----------
+
 .circle {
   margin: auto;
   width: 100px;
@@ -12,13 +14,16 @@ body {
   -webkit-border-radius: 50px;
   border-radius: 50px;
   position: relative;
-  -webkit-animation: circle 5s infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation: circle 5s infinite;
   animation: circle 5s infinite;
   animation-direction: alternate;
   animation-delay: 2s;
   z-index: -2;
   top: -100px;
 }
+*/
+
+/* rolling stone animation effects that markbot won't allow :(
 
 @keyframes circle {
 
@@ -33,6 +38,7 @@ body {
   }
 
 }
+*/
 
 .alfa {
   font-family: "Alfa Slab One", cursive;
@@ -44,30 +50,4 @@ body {
 .mont {
   font-family: Montserrat, sans-serif;
   vertical-align: middle;
-}
-
-@media only screen and (min-width: 25em) {
-
-  .alfa {
-    font-size: 6em;
-  }
-
-}
-
-@media only screen and (min-width: 38em) {
-
-  .alfa {
-    font-size: 6em;
-  }
-}
-
-@media only screen and (min-width: 60em) {
-
-  .alfa {
-    font-size: 8em;
-  }
-}
-
-@media only screen and (min-width: 90em) {
-
 }
